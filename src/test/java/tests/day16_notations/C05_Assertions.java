@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.TestBase;
 public class C05_Assertions extends TestBase {
-    @Test
+    @Test(groups = "grup2")
     public void test01() {
         // 1- amazon anasayfaya gidin
         driver.get("https://www.amazon.com");

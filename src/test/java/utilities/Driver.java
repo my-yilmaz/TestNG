@@ -48,10 +48,10 @@ public class Driver {
         }
         return driver;
     }
-    public static void closeDriver(){
-        if (driver!=null){ // driver'a deger atanmissa
+    public static void closeDriver() {
+        if (driver != null) { // driver'a deger atanmissa
             driver.close();
-            driver=null;
+            driver = null;
         }
     }
 }
